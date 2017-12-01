@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/body"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/top_bg" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="个人中心"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/profile_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/filter_blue_btn"
+            android:padding="5dp"
+            android:src="@drawable/profile_refresh_site_icon" />
+    </FrameLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_weight="1"
+        layout="@layout/activity_myself2">
+    </include>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"></View>
+
+    <include
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        layout="@layout/mainbottom"/>
+</LinearLayout>

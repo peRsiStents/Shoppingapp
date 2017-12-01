@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/circle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/circle" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tv_weather"
+                android:text="天气预报"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:textColor="#666666"
+                android:textSize="15dp"
+                android:maxLines="3"
+                android:minLines="2"/>
+
+
+            <TextView
+                android:id="@+id/tv_wendu"
+                android:text="温度"
+                android:layout_width="fill_parent"
+                android:layout_margin="5dp"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:textColor="#666666"
+                android:textSize="15dp"
+                android:maxLines="3"
+                android:minLines="2"/>
+
+            <TextView
+                android:id="@+id/tv_kongqi"
+                android:text="空气质量状况指数"
+                android:gravity="center_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textColor="#666666"
+                android:textSize="15dp"
+                android:maxLines="3"
+                android:minLines="2"/>
+
+            <TextView
+                android:id="@+id/tv_feng"
+                android:text="风速"
+                android:gravity="center_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:textColor="#666666"
+                android:textSize="15dp"
+                android:maxLines="3"
+                android:minLines="2"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

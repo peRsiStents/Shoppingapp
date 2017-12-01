@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.sdcj.shopping.view.User">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:name="edu.sdcj.shopping.view.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/shopping_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UpdateUserActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.weather.WeatherActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".MyInfoActivity"/>
+        <activity android:name=".MyselfActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.goods.GoodsDetailActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.order.OrderActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.shoppingcar.ShoppingCar"/>
+        <activity android:name="edu.sdcj.shopping.view.goods.GoodsListActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.goods.GoodsRecently"/>
+        <activity android:name="edu.sdcj.shopping.view.goods.GoodsSearch"/>
+        <activity android:name="edu.sdcj.shopping.view.setting.SettingActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.setting.AboutActivity"/>
+        <activity android:name=".CalculatorActivity"/>
+        <activity android:name="edu.sdcj.shopping.view.order.PingjiaActivity"/>
+
+
+
+    </application>
+
+
+</manifest>

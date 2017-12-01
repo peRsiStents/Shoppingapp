@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp" >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_bg" />
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="4dp">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/etsearch"
+            android:completionThreshold="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/top_search_box"
+            android:gravity="center_vertical"
+            android:paddingLeft="35dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:hint="请输入搜索关键字"/>
+
+        <ImageView
+            android:id="@+id/ivsearch"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|right"
+            android:padding="10dp"
+            android:src="@drawable/top_search_icon"
+            android:layout_marginRight="30dp" />
+    </FrameLayout>
+
+</FrameLayout>

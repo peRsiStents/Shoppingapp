@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" >
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#000000" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_bg" />
+
+        <ImageView
+            android:id="@+id/return_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:src="@drawable/item_grid_header_arrow_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/shoppingcars"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_edit"
+            android:onClick="doClick"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/filter_blue_btn"
+            android:text="@string/edit"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_hint"
+        android:layout_gravity="center"
+        android:src="@drawable/shoppingcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/ll_car"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c7bfbf" />
+
+
+
+        <ListView
+            android:id="@+id/car_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:dividerHeight="0.1dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_car_foot"
+        android:background="@drawable/foot_bg"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff">
+
+
+            <CheckBox
+                android:id="@+id/ck_all"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:text="@string/check_all"
+                android:textSize="20dp"
+                android:onClick="doClick"
+                android:textColor="#762034"
+                />
+
+
+            <FrameLayout
+                android:id="@+id/frame1"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="@drawable/button_red" >
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/shopping_cart_acc_cart_icon" />
+
+                <TextView
+                    android:id="@+id/tv_settlement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="50dp"
+                    android:text="@string/jiesuan"
+                    android:textColor="#f3f3f3"
+                    android:textSize="18dp" />
+            </FrameLayout>
+            <TextView
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:id="@+id/tv_delete"
+                android:layout_width="140dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/filter_blue_btn"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tv_show_price"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="140dp"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:text="@string/heji"
+                android:textColor="#762034"
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

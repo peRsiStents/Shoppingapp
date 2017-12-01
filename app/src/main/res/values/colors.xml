@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ff0000</color>
+    <color name="zonghong">#e4a93c3c</color>
+    <color name="hui">#f7766f6f</color>
+    <!-- 灰色 -->
+    <color name="grey_color1">#333333</color>
+    <color name="page_backgroup">#f2f2f2</color>r>
+</resources>

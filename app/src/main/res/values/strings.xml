@@ -1,0 +1,57 @@
+
+    <resources>
+        <string name="app_name">掌上商城</string>
+        <string name="shoppingcars">购物车</string>
+        <string name="edit">编辑</string>
+        <string name="check_all">全选</string>
+        <string name="jiesuan">结算(0)</string>
+        <string name="heji">合计:0.00</string>
+        <string name="goodsname">商品名</string>
+        <string name="jia">+</string>
+        <string name="jian">-</string>
+        <string name="num">1</string>
+        <string name="goodsprice">单价</string>
+        <string name="goodsnum">x1</string>
+        <string name="delete">删除</string>
+        <string name="goodsdetail">商品详情</string>
+        <string name="now_buy">立即购买</string>
+        <string name="add_shoppingcar">加入购物车</string>
+        <string name="goodstype">商品类型</string>
+        <string name="goodsintroduce">商品描述</string>
+        <string name="username">用户名</string>
+        <string name="myfoot">我的足迹</string>
+        <string name="goodsSearchResult">商品搜索结果</string>
+        <string name="keyword">请输入搜索的关键字</string>
+        <string name="userLogin">会员登录</string>
+        <string name="login">登录</string>
+        <string name="password">密码</string>
+        <string name="no_register">没有账号？免费注册</string>
+        <string name="userCenter">个人中心</string>
+        <string name="user_Register">用户注册</string>
+        <string name="register">注册</string>
+        <string name="myOrder">我的订单</string>
+        <string name="no_login">未登录</string>
+        <string name="myInfo">我的信息</string>
+        <string name="conpassword">确认密码</string>
+        <string name="sex">性别</string>
+        <string name="male">男</string>
+        <string name="fmale">女</string>
+        <string name="age">年龄</string>
+        <string name="call">手机</string>
+        <string name="address">地址</string>
+        <string name="register_return_login">已经注册，返回登录界面</string>
+        <string name="userInfo">会员信息</string>
+        <string name="update">修改</string>
+        <string name="return_homepage">返回首页</string>
+        <string name="updateInfo">修改信息</string>
+        <string name="examine">查看</string>
+        <string name="submit">提交</string>
+        <string name="search_weather">搜索更多地方的天气</string>
+        <string name="jinan">济南</string>
+        <string name="weather">天气情况</string>
+        <string name="weidu">温度</string>
+        <string name="kongqi">空气质量状况指数</string>
+        <string name="fengsu">风速</string>
+    </resources>
+
+

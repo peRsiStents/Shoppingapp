@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+        <ImageView
+            android:id="@+id/iv_fristImag"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/default_image"
+            android:scaleType="centerCrop" /> <!-- 当图片大小大于imageview宽高以中心为基点，按比例缩小-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:hint="用户名"
+            android:padding="10dp"
+            android:layout_marginLeft="150dp"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/tv_title"
+                android:text="商品名"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tv_price"
+                android:text="单价"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
